@@ -1,0 +1,40 @@
+h1{
+    color: red;
+}
+
+.h1class{
+    color: green;
+}
+
+/* the class name is getting more priority than the 
+h1 tag */
+
+#h1ID{
+    color: blue;
+}
+
+/* the ID class is getting more priority than the 
+h1 tag and also the class*/
+
+
+.header2{
+    color: pink !important;
+}
+
+/* the specificity of using important comes first */
+
+
+
+
+/* h3 */
+.heading{
+    color: aqua;
+}
+
+/* since there are two classes but heading class is latest so 
+it is priority first */
+
+
+
+
+
